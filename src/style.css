@@ -1,0 +1,70 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+}
+h4 {
+  font-size: 1.25em;
+}
+.container {
+  margin: 0 auto;
+  padding-top: 4em;
+  max-width: 768px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.slider-input-container {
+  display: flex;
+  align-items: center;
+}
+.slider-input-text {
+  width: 2em;
+}
+.box {
+  background-color: rgb(40, 44, 52);
+  width: 16em;
+  height: 16em;
+  margin-bottom: 2em;
+}
+.borderStyle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.borderStyle-container > textarea {
+  margin-bottom: 2em;
+}
+
+.css-textarea {
+  width: 24em;
+  box-sizing: border-box;
+  color: rgb(171, 178, 192);
+  background-color: rgb(40, 44, 52);
+  margin-bottom: 1em;
+  padding: 1em;
+}
+.copy-btn {
+  border: none;
+  background-color: rgb(0, 117, 255);
+  color: white;
+  width: 20rem;
+  height: 4rem;
+  border-radius: 1em;
+}
+.copy-btn:focus {
+  background-color: rgb(138, 195, 96);
+  outline: none;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
